@@ -1,0 +1,104 @@
+/* universal font family for this page */
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+/* banner section start============== */
+.banner-heading {
+
+    text-align: left;
+    font: normal normal 900 2.5vw Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.banner-button {
+    background: #1492E6 0% 0% no-repeat padding-box;
+    box-shadow: 0px 16px 48px #00000029;
+    border-radius: 33px;
+    opacity: 1;
+
+}
+
+
+
+
+/* grid area */
+.grid-area {
+    background-color: #F8FAFC;
+    position: relative;
+    
+    margin-top: 8vw;
+
+}
+.wave-1{
+    position: absolute;
+    top: -30vw;
+    transform: rotate(180deg);
+    z-index: -99;
+    width: 99%;
+}
+.wave-2{
+    position: absolute;
+    width: 99%;
+
+    z-index: -199;
+    bottom: -33vw;
+}
+
+.inside-grid {
+
+    width: 308px;
+    height: 320px;
+    background: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 18px;
+    opacity: 1;
+
+
+}
+
+
+.review {
+    width: 1097px;
+    height: 363px;
+    /* UI Properties */
+    background: #F8FAFC 0% 0% no-repeat padding-box;
+    box-shadow: 0px 16px 48px #00000029;
+    border-radius: 42px;
+    opacity: 1;
+}
+
+.review-img {
+    width: 64px;
+    height: 63px;
+}
+
+.review-post {
+/*   
+    height: 263px; */
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 16px 48px #00000029;
+    border-radius: 30px;
+    opacity: 1;
+}
+
+.star{
+    width: 14px;
+    height: 14px;
+}
+
+.name{
+    font-size: 13px;
+}
+
+
+.designation{
+    font-size: 12px;
+}
